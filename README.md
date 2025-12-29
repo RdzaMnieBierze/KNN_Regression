@@ -25,7 +25,7 @@ Pierwsze podejście bez przetwarzania danych.
 * **Wynik:** $R^2 = 0.599$ (dla $k=5$)
 * **Wniosek:** Duża rozbieżność predykcji, model wymaga optymalizacji.
 
-> [Tu wstaw zdjęcie: Wykres Predykcja vs Rzeczywistość dla danych surowych (slajd 4 z prezentacji)]
+![Surowe dane](output.png)
 
 ### 3. Normalizacja danych
 Zastosowano skalowanie danych, aby wszystkie cechy miały równy wpływ na obliczanie odległości w algorytmie KNN.
@@ -52,4 +52,4 @@ Najlepszy model uzyskano po normalizacji, selekcji cech oraz dodaniu nowych wska
 * **Współczynnik determinacji ($R^2$):** **0.723**
 * **Średni błąd bezwzględny (MAE):** ~4.07 punktów procentowych
 
-> [Tu wstaw zdjęcie: Wykres Predykcja vs Rzeczywistość dla najlepszego modelu - dodatkowe cechy (slajd 10 z prezentacji)]
+![Najlepszy wynik](output_norm_clear.png)
